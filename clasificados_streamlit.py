@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load and prepare your dataframe here
-df = pd.read_csv('/Users/natalielewis/Desktop/p/clasificados.csv')  # Load your cleaned dataframe
+df = pd.read_csv('/Users/zenmaster/Programming/clasificados/classifieds_data.csv')  # Load your cleaned dataframe
 
 # Ensure price is numeric
 df['Price'] = df['Price'].replace('[\$,]', '', regex=True).astype(float)
