@@ -27,7 +27,7 @@ A Python web scraper that extracts real estate listings from [clasificadosonline
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/samielzaret7/Clasificados-Online-Real-Estate-Scraper.git
 cd Clasificados-Online-Real-Estate-Scraper
 
 # Create and activate a virtual environment
