@@ -201,3 +201,8 @@ python tests/test_scrape_integration.py --test-upload
 - **Profile cloning**: If Chrome is already running and the profile is locked, the scraper automatically clones the profile to a temp directory and cleans it up on exit.
 - **Multiple sellers**: Properties with "MultipleSellers" in the URL get `broker = "Multiple Sellers"` instead of trying to parse the broker image.
 - **Python version**: The codebase uses `from __future__ import annotations` for forward-compatible type hints but avoids `str | None` syntax to maintain Python 3.9 compatibility.
+
+## Related Projects
+
+- **[PropertyScout](https://github.com/samielzaret7/PropertyScout)** — Public-facing Puerto Rico real estate market dashboard (search, analytics, KPIs) powered by the data this scraper collects.
+- **[Agent-Dashboard](https://github.com/samielzaret7/Agent-Dashboard)** — Agent-facing dashboard with authentication and property assignment, sharing the same Supabase backend.
