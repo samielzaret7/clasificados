@@ -1,3 +1,8 @@
 .env
 .DS_Store
-chromedriver-mac-x64/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+/data
+*.png
+run_smoke_test.sh
